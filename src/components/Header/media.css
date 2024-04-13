@@ -1,0 +1,44 @@
+@media (max-width: 426px) {
+  .stanbul {
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -20pc;
+    color: rgb(255, 255, 255);
+    margin-top: -5pc;
+    font-size: 5pc;
+    /* box-shadow: 0, 0, 10px rgb(0 0 0 0.5); */
+    animation: h1 3s ease 0s 1 normal forwards;
+  }
+  @keyframes h1 {
+    0% {
+      transform: translateY(-100px);
+    }
+  }
+  .stanbu {
+    margin-left: 0px;
+    width: 63.5pc;
+    height: 99.8pc;
+  }
+  .stanbul h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 2pc;
+    margin-left: 60pc;
+    margin-top: -30pc;
+  }
+  .stanbul p {
+    display: flex;
+    font-size: 2.2pc;
+    color: black;
+    flex-wrap: wrap;
+    margin-left: -40pc;
+  }
+  .stanbul button {
+    width: 20pc;
+  }
+  .parent {
+    margin-left: 23pc;
+  }
+}
