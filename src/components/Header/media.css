@@ -1,44 +1,113 @@
 @media (max-width: 426px) {
   .stanbul {
-    z-index: 100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: -20pc;
-    color: rgb(255, 255, 255);
-    margin-top: -5pc;
-    font-size: 5pc;
+    background-size: 100%;
+  }
+  .stanbu {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -10;
+    width: 90%;
+    min-height: 100vh;
+    background: url(https://globalgrasshopper.com/wp-content/uploads/2012/05/Istanbul-1-1000x662.jpg)
+      no-repeat center/cover;
+    /* background-size: 100%; */
+  }
+  .bg {
+    position: absolute;
+    width: 90%;
+    min-height: 100vh;
+    background: #00000091;
+    z-index: -1;
+    margin-top: -9pc;
+  }
+  .stanbul h1 {
+    font-size: 2pc;
+    margin-left: -6pc;
+    margin-top: 6pc;
     /* box-shadow: 0, 0, 10px rgb(0 0 0 0.5); */
     animation: h1 3s ease 0s 1 normal forwards;
   }
   @keyframes h1 {
     0% {
-      transform: translateY(-100px);
+      transform: translateY(-50px);
     }
   }
-  .stanbu {
-    margin-left: 0px;
-    width: 63.5pc;
-    height: 99.8pc;
-  }
-  .stanbul h1 {
-    display: flex;
-    justify-content: center;
-    font-size: 2pc;
-    margin-left: 60pc;
-    margin-top: -30pc;
-  }
   .stanbul p {
-    display: flex;
-    font-size: 2.2pc;
-    color: black;
-    flex-wrap: wrap;
-    margin-left: -40pc;
+    font-size: 1pc;
+    margin-left: -7pc;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    margin-top: 2pc;
+    box-shadow: 0, 0, 10px rgb(0 0 0 0.5);
+    animation: p 5s ease 0s 1 normal forwards;
+    z-index: 100;
   }
-  .stanbul button {
-    width: 20pc;
+  @keyframes p {
+    0% {
+      transform: translateY(100px);
+    }
   }
   .parent {
-    margin-left: 23pc;
+    margin-left: 18pc;
+    z-index: 100;
+    width: 10px;
+    height: 100%;
+    margin-top: -15pc;
+  }
+  .child {
+    z-index: 100;
+
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease-in-out;
+    background: rgb(36, 36, 36);
+    border-radius: 10%;
+    margin: 4px 8px;
+  }
+  button {
+    z-index: 100;
+
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+  }
+
+  .stanbul h4 {
+    margin-left: 7pc;
+    z-index: 100;
+    /* position: absolute; */
+    margin-top: 2pc;
+    border-radius: 20px;
+    background: aqua;
+    display: flex;
+    font-size: 10px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    height: 2pc;
+    width: 6.6pc;
+  }
+  .stanbul button {
+    cursor: pointer;
+    font-size: 1pc;
+    /* position: absolute; */
+    margin-top: 3pc;
+    margin-left: -6pc;
+    width: 5.5pc;
+    height: 1.6pc;
+    border-radius: 8px;
+    border: none;
+    background: royalblue;
+    animation: button 5s ease 0s 1 normal forwards;
+  }
+  @keyframes button {
+    0% {
+      transform: translateY(30px);
+    }
   }
 }

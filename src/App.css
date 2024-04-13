@@ -40,11 +40,9 @@
 .stanbul {
   z-index: 100;
   position: relative;
-  width: 91.4pc;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
-  height: 46.6pc;
   align-items: center;
   overflow: none;
   margin-left: 0pc;
@@ -60,6 +58,7 @@
   min-height: 100vh;
   background: url(https://globalgrasshopper.com/wp-content/uploads/2012/05/Istanbul-1-1000x662.jpg)
     no-repeat center/cover;
+  background-size: 100%;
 }
 /* .stanbul::before {
   content: "";
