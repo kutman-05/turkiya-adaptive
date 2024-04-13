@@ -19,11 +19,11 @@
     min-height: 107.3vh;
     background: #00000091;
     z-index: -1;
-    margin-top: -9pc;
+    margin-top: -10.5pc;
   }
   .stanbul h1 {
     font-size: 2.2pc;
-    margin-top: 6pc;
+    margin-top: 7.5pc;
     /* box-shadow: 0, 0, 10px rgb(0 0 0 0.5); */
     animation: h1 3s ease 0s 1 normal forwards;
   }
@@ -40,6 +40,8 @@
     box-shadow: 0, 0, 10px rgb(0 0 0 0.5);
     animation: p 5s ease 0s 1 normal forwards;
     z-index: 100;
+    line-height: 2.2pc;
+    margin-top: 4pc;
   }
   @keyframes p {
     0% {
@@ -51,7 +53,7 @@
     z-index: 100;
     width: 10px;
     height: 100%;
-    margin-top: -14.5pc;
+    margin-top: -17pc;
   }
   .child {
     z-index: 100;
@@ -76,7 +78,7 @@
   }
 
   .stanbul h4 {
-    margin-left: 9.8pc;
+    margin-left: 9.9pc;
     z-index: 100;
     /* position: absolute; */
     margin-top: 2pc;
@@ -126,14 +128,14 @@
   .bg {
     position: absolute;
     width: 100%;
-    min-height: 100vh;
+    min-height: 104.8vh;
     background: #00000091;
     z-index: -1;
-    margin-top: -9pc;
+    margin-top: -9.8pc;
   }
   .stanbul h1 {
     font-size: 2pc;
-    margin-top: 6pc;
+    margin-top: 7.8pc;
     /* box-shadow: 0, 0, 10px rgb(0 0 0 0.5); */
     animation: h1 3s ease 0s 1 normal forwards;
   }
@@ -143,13 +145,16 @@
     }
   }
   .stanbul p {
-    font-size: 1.2pc;
+    font-size: 1.1pc;
     justify-content: center;
     color: rgb(255, 255, 255);
     margin-top: 2pc;
     box-shadow: 0, 0, 10px rgb(0 0 0 0.5);
     animation: p 5s ease 0s 1 normal forwards;
     z-index: 100;
+    line-height: 2.1pc;
+    margin-top: 5pc;
+    margin-left: -1.6pc;
   }
   @keyframes p {
     0% {
@@ -157,11 +162,11 @@
     }
   }
   .parent {
-    margin-left: 21.2pc;
+    margin-left: 21pc;
     z-index: 100;
     width: 10px;
     height: 100%;
-    margin-top: -14pc;
+    margin-top: -17.2pc;
   }
   .child {
     z-index: 100;
@@ -186,7 +191,7 @@
   }
 
   .stanbul h4 {
-    margin-left: 8.4pc;
+    margin-left: 7.9pc;
     z-index: 100;
     /* position: absolute; */
     margin-top: 2pc;
@@ -208,6 +213,7 @@
     width: 5.5pc;
     height: 1.6pc;
     border-radius: 8px;
+    margin-left: -1pc;
     border: none;
     background: royalblue;
     animation: button 5s ease 0s 1 normal forwards;
